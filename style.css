@@ -1,0 +1,64 @@
+/* Resetando estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos gerais */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 30px;
+  }
+  
+  .logo h1 {
+    color: #fff;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav ul li {
+    margin: 0 15px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #f4a261;
+  }
+  
+  /* Seções do portfólio */
+  .section {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 20px;
+  }
+  
+  .section h2 {
+    font-size: 32px;
+    color: #333;
+  }
+  
+  /* Efeito de transição do menu */
+  .nav-link.active {
+    color: #f4a261;
+    font-weight: bold;
+  }
